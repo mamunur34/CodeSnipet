@@ -1,0 +1,170 @@
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+ .video-wrap .content-overlay{
+	 max-width:100%;
+	 }
+ .content-overlay{
+	margin: 0 auto; 
+	display: table; 
+	width: 100%;
+	text-align:center;
+	}
+ .home-features-section .features__listing{
+	 z-index: 1;
+	 }
+.home-map-section, 
+.home-map-section .map-pic,
+.home-map-section .map-pic img {height: 100%;}
+ 
+ .home-slider-section{height: 100%;}
+ .home-company-section{margin-top: 0px;padding-top: 0px;}
+ 
+ .cta__wrapper{display: table; margin: 100px auto;}
+
+ .flex-container {padding-bottom: 50px;}
+ 
+/*domestic homepage completed*/
+
+
+ .hero-section__wrapper{ padding-top: 100px;}
+ 
+ .papers__list-item-desc{width: 100%; height: 100%;}
+ 
+ /*file:///G:/Downloads/beta-final/Beta/live-to-vod-l2v/index.html */
+ .product-info-middle-pic{width: 100%;}
+ 
+ 
+ .customers__list-item img{height: 100%;}
+ 
+ .news-listing__panel .news-item .news-title{height: 100%; width: 100%;}
+ .news-listing__panel .news-item .news-excerpt{height: 100%; width: 100%;}
+ 
+ 
+ .AboutInterestedGrid-item--cta{padding: 100px;width: 50%;}
+ .AboutInterestedGrid-item--cta h2.Text--xlarge{width: 100%;}
+ /* Contact page */
+
+ .location__list-image {height: 200px;}
+ /*
+ .product-info__panel img{max-width: 75%;}
+ .product-info__panel .content-col {width: 35%;}
+ .product-info__panel .img-col{text-align: left;}
+ */
+ .main__container{width: 100%;max-width: 1170px;}
+ .product-info__panel .product-info-row{width: 100%; max-width: 1170px;}
+ 
+ /* responsive starts */
+
+ .hero-section__info-sm{display: block; width: 100%; max-width: 100%;}
+ .product-info-row{max-width: 100%;}
+ .info__desc{max-width: 100%;width: 710px;}
+ .product-info__panel p{max-width: 100%;}
+ 
+ .product-info__panel{max-width: 100%;width: 100%;}
+ 
+ .header__nav .nav{max-width: 100%;width: 100%;}
+ 
+ .leader__profile-item-desc{max-width: 100%;width: 100%;}
+
+
+.video-wrap .content-overlay h1 {font-weight: 600;}
+
+.info__title {font-weight: 600;}
+
+.info__desc {font-size: 19px;}
+
+.cta__title {font-weight: 600;}
+
+.hero-section__title {font-weight: 600;}
+
+.hero-section__info {font-weight: 500;}
+
+.hero-section__info-sm {font-size: 19px;}
+
+.product-info__panel {font-size: 18px;}
+
+.papers__title {font-weight: 600;}
+
+.papers__desc {font-size: 19px;}
+
+.papers__list-item-title {font-size: 19px;}
+
+.papers__list-item-desc {font-size: 19px;}
+
+.papers__list-item-link {font-size: 19px;}
+
+.footer__nav-item-title {font-size: 15px; font-weight: 700}
+
+.footer__nav-item-link {font-size: 15px;}
+
+.customers__title {font-weight: 600;}
+
+.customers__desc {font-size: 19px;}
+
+.world__title {font-weight: 600;}
+
+.world__desc {font-size: 19px;}
+
+.talent__title {font-weight: 600;}
+
+.talent__desc {font-size: 19px;}
+
+.Text--xlarge {font-weight: 500}
+
+.ownership__title {font-weight: 600;}
+
+.ownership__desc {font-size: 19px;}
+
+.leader__title {font-weight: 600;}
+
+.leader__desc {font-size: 19px;}
+
+.leader__profile-item-desc {font-size: 19px; font-weight: 400}
+
+.leader__profile-item-title {font-size: 19px; font-weight: 700}
+
+.Text--small {font-size: 17px;}
+
+.bio-modal-container {font-size: 18px;}
+
+.news-article-section {margin-top: 10px;}
+
+.news-listing__panel .news-item h1.news-title, .news-full-article .news-full-info h1.news-title {font-weight: 600;}
+
+.news-listing__panel .news-item {font-size: 19px;}
+
+.news-listing__panel .news-item .readmore-btn a, .news-full-article .news-full-info .readmore-btn a {font-size: 19px; font-weight: 700;}
+
+.news-full-article .news-full-info {font-size: 19px;}
+
+.contact__title {font-weight: 600;}
+
+.contact__desc {font-size: 19px;}
+
+.location__title {font-weight: 600;}
+
+.location__desc {font-size: 19px;}
+ 
+		.info__thumb{height: 100%;}
+		.info__metrics{width: 100%;}
+		.world__thumb{height: 100%;}
+
+		.talent__title{width: 100%;}
+		.talent__desc{width: 100%;}
+
+
+		.talent__grid{width: 100%;}
+
+
+		.ownership__desc{width: 100%}
+
+ 
+/*the ending */
+}
+
+@media screen and (-ms-high-contrast: active)and (max-width: 600px),
+	screen and (-ms-high-contrast: none)   and (max-width: 600px) {  
+	 
+			.AboutInterestedGrid{display: block;}
+		.talent__content{display: block;}
+}
