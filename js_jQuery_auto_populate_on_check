@@ -1,0 +1,107 @@
+function TextArea_3d() {     
+   var allVals = [];
+   jQuery('.3d-taglist :checked').each(function(i) {
+   
+		if('3D Scanning and CAD Modeling' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "Please provide the approximate physical size, and what the model would be used for (Aerospace, Automobile, DOD, etc.) What accuracy requirements do you require?  Tolerances? It would be great to attach a few photos.");
+			}
+		if('3D CAD Conversion or Translation' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "What are your source and destination CAD systems? Like Catia V5-6R26, SolidWorks 2017, Microstation V8, V8i, Siemens NX?");
+			}
+	   if('Reverse Engineering' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "Please explain the source objects and desired accuracy.");
+			}
+		if('Free Form Modeling' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "What is the desired result?  How will this be used?  A picture is worth a thousand words!");
+			}
+		if('Sheet Metal Design' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "How will this be used? Do we compensate for the K-factor?  Will you need flattening?  What CAD software are you using (Catia, NX, Solidworks)?");
+			}
+		if('Mylar to 3D CAD Conversion' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "Do we assume this is an Aerospace Mylar?  If so, the standard accuracy requirement is ±.005");
+			}
+		if('Engineering Simulation' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "");
+			}
+		if('My Job is ITAR Compliant' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "We assign a dedicated ITAR person to your project.");
+			}
+		if('Other' == jQuery(this).val()){
+			allVals.push((i!=0?" ":" ")+  "");
+			}
+		
+   
+   //    allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   //jQuery('#textarea-3d').val( allVals ) ;  //for textarea/or input  
+   jQuery('#mr_3d_suggession').text( allVals ) ; //for p    
+}
+
+
+jQuery(function() {
+	jQuery('.3d-taglist input').click(TextArea_3d);
+	TextArea_3d();
+});
+
+function TextArea_2d() {     
+   var allVals = [];
+   jQuery('.2d-taglist :checked').each(function(i) {          
+       allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   jQuery('#textarea-2d').val('Tell us the key project things like your purpose. ' + allVals) ;    
+}
+jQuery(function() {
+	jQuery('.2d-taglist input').click(TextArea_2d);
+	TextArea_2d();
+});
+
+function TextArea_scanners() {     
+   var allVals = [];
+   jQuery('.scanners-taglist :checked').each(function(i) {          
+       allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   jQuery('#textarea-scanners').val('Tell us the key project things like your purpose. ' + allVals) ;    
+}
+jQuery(function() {
+	jQuery('.scanners-taglist input').click(TextArea_scanners);
+	TextArea_scanners();
+});
+//////////////////////////////////////////
+/////the short form of this file was this, the auto value
+///////////////////////////////////////
+
+function TextArea_3d() {     
+   var allVals = [];
+   jQuery('.3d-taglist :checked').each(function(i) {          
+       allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   jQuery('#textarea-3d').val('Tell us the key project things like your' + allVals + ' purpose.') ;    
+}
+jQuery(function() {
+	jQuery('.3d-taglist input').click(TextArea_3d);
+	TextArea_3d();
+});
+
+function TextArea_2d() {     
+   var allVals = [];
+   jQuery('.2d-taglist :checked').each(function(i) {          
+       allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   jQuery('#textarea-2d').val('Tell us the key project things like your' + allVals + ' purpose.') ;    
+}
+jQuery(function() {
+	jQuery('.2d-taglist input').click(TextArea_2d);
+	TextArea_2d();
+});
+
+function TextArea_scanners() {     
+   var allVals = [];
+   jQuery('.scanners-taglist :checked').each(function(i) {          
+       allVals.push((i!=0?" ":" ")+ jQuery(this).val());
+   });
+   jQuery('#textarea-scanners').val('Tell us the key project things like your' + allVals + ' purpose.') ;    
+}
+jQuery(function() {
+	jQuery('.scanners-taglist input').click(TextArea_scanners);
+	TextArea_scanners();
+});
