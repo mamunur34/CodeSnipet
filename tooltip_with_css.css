@@ -1,0 +1,20 @@
+ .mr_tooltip_step5:hover:after {
+ font-size:13px;
+  content:attr(title_mr);
+  padding: 4px 8px;
+  //color: #333;
+  color: #fff;
+  position: absolute;
+   margin-top: 10px;
+   margin-left: -430px;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: url(images/blue_filter.png);
+}
