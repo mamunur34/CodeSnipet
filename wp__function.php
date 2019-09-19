@@ -40,3 +40,36 @@ function cmb2_get_term_options( $field ) {
 
 	return $term_options;
 }
+
+
+
+
+// create a new user role
+
+function wpeagles_example_role()
+{
+    add_role(
+        'pmpro_role_104',
+        'Basic | Dominant',
+        [
+            // list of capabilities for this role
+            'read'         => true,
+//            'edit_posts'   => true,
+  //          'upload_files' => true,
+        ]
+    );
+
+    add_role(
+        'pmpro_role_112',
+        'Premium Content | Through the Eyes of a husDOM™',
+        [
+            // list of capabilities for this role
+            'read'         => true,
+//            'edit_posts'   => true,
+  //          'upload_files' => true,
+        ]
+    );
+}
+
+// add the example_role
+add_action('init', 'wpeagles_example_role');
